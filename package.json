@@ -1,0 +1,18 @@
+{
+    "name": "techhelper-backend-atividades",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "ts-node-dev --respawn --transpile-only ./src/class-atividade-1/ex1.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.7.10",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.7.4"
+    }
+}
