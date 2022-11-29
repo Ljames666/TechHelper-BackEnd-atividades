@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "ts-node-dev --respawn --transpile-only ./src/class-atividade-1/ex6.ts"
+        "dev": "ts-node-dev --respawn --transpile-only ./src/class-atividade-2/ex3.ts"
     },
     "keywords": [],
     "author": "",
