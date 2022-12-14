@@ -1,4 +1,5 @@
 import IClients from '../interfaces/IClients';
+import Client from './Client';
 
 class Bank {
     ag: string;
@@ -18,6 +19,14 @@ class Bank {
             password: '123456',
         };
         this.clients = [];
+    }
+
+    addClientToArray(client: Client) {
+        this.clients.push(client);
+    }
+
+    existCpf(cpf: string) {
+        return this.clients.some((client) => client.cpf === cpf);
     }
 }
 
